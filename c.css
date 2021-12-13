@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+    display: flex;
+    
+    border:3px solid rgb(226, 212, 215);
+    background-color: rgb(162, 114, 250);
+}
+.main .green{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    background-color: rgb(202, 218, 202);
+    line-height: 20px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.main .red{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    background-color: rgb(0, 255, 0);
+    line-height: 40px;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.main .yellow{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    background-color: yellow;
+    line-height: 20px;
+    margin-left: 5px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.main .reset{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 80px;
+}
